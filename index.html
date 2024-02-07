@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rossibella studio</title>
+    <link rel="icon" href="pres.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>Rossibella</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <!-- CATALOGO INICIO CON FONT AWESOM -->
+                            <a href="#inicio" onclick="seleccionar()">
+                                <i class=""></i>
+                                <span>El maquillaje es la herramienta que permite compartir mis inspiraciones, mis fantasias y mi vision con el mundo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <!-- CATALOGO INICIO CON FONT AWESOM -->
+                            <a href="#sabores" onclick="seleccionar()">
+                                <i class=""></i>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <!-- CATALOGO INICIO CON FONT AWESOM -->
+                            <a href="#platos" onclick="seleccionar()">
+                                <i class=""></i>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <!-- CATALOGO INICIO CON FONT AWESOM -->
+                            <a href="#blog" onclick="seleccionar()">
+                                <i class=""></i>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <!-- CATALOGO INICIO CON FONT AWESOM -->
+                            <a href="#contacto" onclick="seleccionar()">
+                                <i class=""></i>
+                                <span></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="tel:">
+                        <i class="fa-solid fa-phone"></i> 
+                    </a>
+                    <a href="https://www.instagram.com/rossibella_beauty_studio_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1"><i class="fa-brands fa-whatsapp"></i></a> 
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+                <div class="gallery-cell" >
+                    <img src="fondo/ma51.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="fondo/ma30.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="fondo/uñap.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="fondo/ma52.jpeg" alt="">
+                </div>
+            </div>
+            <div class="info">
+                <h2> </h2>
+                <p></p>
+                <!-- boton de saber mas -->
+            </div>
+        </div>
+    </section>
+
+
+        <!-- MAQUILLAJE -->
+    <link rel="stylesheet" href="stylemoda.css">
+
+    <main class="products container" id="lista-1">
+        <h2>Maquillajes</h2>
+        <div class="products-content">
+            <div class="product">
+                <img src="maquillaje/ma50.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Maquillaje Novia</h3>
+                    <p>Te acompañamos al día de tu boda para dejarte más linda que nunca.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/def.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Maquillaje Social</h3>
+                    <p>Maquíllate con nosotros para tus eventos especiales.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/fanti.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Mauillaje de Fantasia</h3>
+                    <p>Personalizamos tu maquillaje para toda ocacion.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/lifting.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Laminado de cejas</h3>
+                    <p>En este cepillado se emplea un producto especial 
+                        que reblandece el vello y lo hace más manejable 
+                        con el fin de definir la forma deseada (y permanente) 
+                        en la ceja.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/laminado.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Lifting de pestañas</h3>
+                    <p>El Lifting eleva tu propia pestaña en forma de "L" mientras 
+                        que el Curling la riza en forma de "C". ¡Tan solo depende de 
+                        tu gusto y estilo!</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/henna.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Cejas con henna</h3>
+                    <p>La henna tiene propiedades acondicionadoras, lo que puede 
+                        ayudar a fortalecer el vello de las cejas. Ayuda a nutrir 
+                        los folículos pilosos y promover un crecimiento saludable, 
+                        lo que tiene como resultado unas cejas más densas.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/diseño.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Diseño de cejas</h3>
+                    <p>El diseño de cejas es el proceso de rediseñar la forma y la 
+                        densidad de las cejas de acuerdo con la forma de la cara de 
+                        la persona.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- UÑAS -->
+    <main class="products container" id="lista-1">
+        <h2>Manicuras y pedicuras</h2>
+        <div class="products-content">
+            <div class="product">
+                <img src="maquillaje/MP.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Manicura y pedicura</h3>
+                    <p>Consiste en una serie de técnicas y tratamientos para el cuidado de las manos y  pies, y corregir sus posibles problemas.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/GEL.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Manicura en gel con diseño</h3>
+                    <p>Las uñas de gel tienden a proporcionar un aspecto más brillante y natural.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="maquillaje/ru.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Manicura con base rubber</h3>
+                    <p>La Rubber base es perfecta para la nivelación de las uñas cortas, finas, flexibles y húmedas.</p>
+                    <p class="precio"></p>
+                    <a href="https://wa.me/message/DYAMCFONUJAXE1" class="agregar-carrito btn-2" data-id="1">Agendar cita</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <!-- SABORES -->
+    <section id="sabores">
+        <h2></h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <!-- VER MAS -->
+    </section>
+
+
+    <!-- SECCION PLATOS -->
+    <section id="platos">
+        <h2></h2>
+
+        <div class="fila">
+            <div class="item">
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <div class="item">
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <div class="item">
+                <img src="" alt="">
+                <p></p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item">
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <div class="item">
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <div class="item">
+                <img src="" alt="">
+                <p></p>
+            </div>
+        </div>
+        <!-- VER MAS -->  
+    </section>
+
+
+    <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>Rossibella</h1>
+            </div>
+            <div class="col">
+                <h3></h3>
+                <a href="#inicio"></a>
+                <a href="#sabores"></a>
+                <a href="#sabores"></a>
+                <a href="#sabores"></a>
+            </div>
+            <div class="col">
+                <h3></h3>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="media">
+                    <i class="fa-brands fa-whatsapp"></i> <a href="#">Whatsapp</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/rossibella_beauty_studio_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+                </div>
+            </div>
+            <!-- AQUI VA INPUT ENVIAR CORREO ETC -->
+            <div class="col">
+                <h3></h3>
+                
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- SECCION DE MENU DESPLEGABLE -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src=" "></script>
+</body>
+</html>
